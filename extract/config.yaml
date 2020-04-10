@@ -1,0 +1,21 @@
+news_sites:
+  eluniversal:
+    url: https://www.eluniversal.com.mx
+    querys: 
+      homepage_article_links: '.field-content a'
+      article_body: '.field-name-body'
+      article_title: '.pane-content h1'
+
+  diariodexalapa:
+    url: 'https://www.diariodexalapa.com.mx'
+    querys:
+      homepage_article_links: '.title a'
+      article_body: '.content-continued-body'
+      article_title: '.title'
+
+  alcalorpolitico:
+    url: 'https://www.alcalorpolitico.com'
+    querys:
+      homepage_article_links: '._ArticuloMarfeel'
+      article_body: '.areasuperior h1'
+      article_title: '.cuerponota'
