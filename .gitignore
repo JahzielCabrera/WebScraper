@@ -1,8 +1,8 @@
 .vscode
-env/
-__pycache__/
+env
+__pycache__
 .DS_Store
 *.swp
-__pycache__/
-extract/__pycache__/
-load/__pycache__/
+__pycache__
+extract/__pycache__
+load/__pycache__
